@@ -321,7 +321,7 @@ github.com/fluxcd/pkg/apis/meta.LocalObjectReference
 the GitRepository.
 For HTTPS repositories the Secret must contain &lsquo;username&rsquo; and &lsquo;password&rsquo;
 fields.
-For SSH repositories the Secret must contain &lsquo;identity&rsquo;, &lsquo;identity.pub&rsquo;
+For SSH repositories the Secret must contain &lsquo;identity&rsquo;
 and &lsquo;known_hosts&rsquo; fields.</p>
 </td>
 </tr>
@@ -1405,7 +1405,7 @@ github.com/fluxcd/pkg/apis/meta.LocalObjectReference
 the GitRepository.
 For HTTPS repositories the Secret must contain &lsquo;username&rsquo; and &lsquo;password&rsquo;
 fields.
-For SSH repositories the Secret must contain &lsquo;identity&rsquo;, &lsquo;identity.pub&rsquo;
+For SSH repositories the Secret must contain &lsquo;identity&rsquo;
 and &lsquo;known_hosts&rsquo; fields.</p>
 </td>
 </tr>
@@ -1630,8 +1630,8 @@ Artifact
 <td>
 <code>includedArtifacts</code><br>
 <em>
-<a href="#source.toolkit.fluxcd.io/v1beta2.*./api/v1beta2.Artifact">
-[]*./api/v1beta2.Artifact
+<a href="#source.toolkit.fluxcd.io/v1beta2.*github.com/fluxcd/source-controller/api/v1beta2.Artifact">
+[]*github.com/fluxcd/source-controller/api/v1beta2.Artifact
 </a>
 </em>
 </td>
