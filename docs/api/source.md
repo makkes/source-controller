@@ -1630,8 +1630,8 @@ Artifact
 <td>
 <code>includedArtifacts</code><br>
 <em>
-<a href="#source.toolkit.fluxcd.io/v1beta2.*github.com/fluxcd/source-controller/api/v1beta2.Artifact">
-[]*github.com/fluxcd/source-controller/api/v1beta2.Artifact
+<a href="#source.toolkit.fluxcd.io/v1beta2.*./api/v1beta2.Artifact">
+[]*./api/v1beta2.Artifact
 </a>
 </em>
 </td>
